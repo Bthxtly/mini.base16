@@ -666,12 +666,12 @@ H.apply_palette = function(palette, use_cterm)
   hi('SnippetTabstop', {link='Visual'})
 
   -- Built-in markdown syntax
-  hi('markdownH1', {fg=p.base09, bg=p.base09, attr=nil, sp=nil})
-  hi('markdownH2', {fg=p.base0A, bg=p.base0A, attr=nil, sp=nil})
-  hi('markdownH3', {fg=p.base0B, bg=p.base0B, attr=nil, sp=nil})
-  hi('markdownH4', {fg=p.base0C, bg=p.base0C, attr=nil, sp=nil})
-  hi('markdownH5', {fg=p.base0D, bg=p.base0D, attr=nil, sp=nil})
-  hi('markdownH6', {fg=p.base0F, bg=p.base0F, attr=nil, sp=nil})
+  hi('markdownH1', {fg=p.base09, bg="", attr=nil, sp=nil})
+  hi('markdownH2', {fg=p.base0A, bg="", attr=nil, sp=nil})
+  hi('markdownH3', {fg=p.base0B, bg="", attr=nil, sp=nil})
+  hi('markdownH4', {fg=p.base0C, bg="", attr=nil, sp=nil})
+  hi('markdownH5', {fg=p.base0D, bg="", attr=nil, sp=nil})
+  hi('markdownH6', {fg=p.base0F, bg="", attr=nil, sp=nil})
 
   -- Tree-sitter
   -- Sources:
